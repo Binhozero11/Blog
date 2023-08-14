@@ -1,0 +1,43 @@
+/*----------------*\
+   CABECALHO LOGO
+\*----------------*/
+
+header.cabecalho .cabecalho-logo figure a {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    text-decoration: none;
+    color: black;
+}
+
+/*--------------------*\
+   CABECALHO PESQUISA
+\*--------------------*/
+
+.cabecalho-pesquisa--container{
+    position: relative;
+    width: 90%;
+}
+
+header.cabecalho .cabecalho-pesquisa__input{
+    padding: 18px 0;
+    padding-left: 24px;
+    width: 100%;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 10px;
+}
+
+header.cabecalho .cabecalho-pesquisa__button{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    border: none;
+    background: #999;
+    padding: 10px 13px;
+    border-radius: 6px;
+}
+
+header.cabecalho .cabecalho-pesquisa__button:hover{
+    background: #7c7a7a;
+}
