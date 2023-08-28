@@ -61,3 +61,12 @@ header.cabecalho .cabecalho-menu a {
     background-color: #ccc;
     height: 100%;
 }
+
+/*--------------------*\
+    CONTAINER
+\*--------------------*/
+
+main.container{
+    background-color: #f1f1f1;
+    max-width: 1200px;
+}
