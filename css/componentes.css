@@ -41,3 +41,32 @@ header.cabecalho .cabecalho-pesquisa__button{
 header.cabecalho .cabecalho-pesquisa__button:hover{
     background: #7c7a7a;
 }
+
+/*--------------------*\
+    CONTEÚDO
+\*--------------------*/
+
+section.SessaoNoticiasEmFoco div.SessaoNoticiasEmFoco--blocoPrincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+section.SessaoNoticiasEmFoco ul.SessaoNoticiasEmFoco--blocoSecundario{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.SessaoNoticiasEmFoco ul.SessaoNoticiasEmFoco--blocoSecundario a li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 5px;
+}
+
+div.SessaoNoticiasEmFoco--blocoPrincipal span, ul.SessaoNoticiasEmFoco--blocoSecundario a li span{
+    color: black;
+}

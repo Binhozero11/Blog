@@ -56,12 +56,6 @@ header.cabecalho .cabecalho-menu a {
     gap: 10px;
 }
 
-.conteudo{
-    max-width: 1200px;
-    background-color: #ccc;
-    height: 100%;
-}
-
 /*--------------------*\
     CONTAINER
 \*--------------------*/
@@ -69,4 +63,12 @@ header.cabecalho .cabecalho-menu a {
 main.container{
     background-color: #f1f1f1;
     max-width: 1200px;
+    padding: 5px;
+}
+
+section.SessaoNoticiasEmFoco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
 }
