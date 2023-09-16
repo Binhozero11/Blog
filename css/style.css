@@ -60,15 +60,33 @@ header.cabecalho .cabecalho-menu a {
     CONTAINER
 \*--------------------*/
 
-main.container{
-    background-color: #f1f1f1;
-    max-width: 1200px;
-    padding: 5px;
+main.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagens/estudoBiblico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-section.SessaoNoticiasEmFoco{
+section.container{
+    max-width: 1600px;
+    background-color: wheat;
+}
+
+section.container article.noticiasEmFoco{
+    margin: 5px 0;
+    width: 100%;
+}
+
+section.container article.noticiasEmFoco ul.noticiasEmFoco--lista {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 15px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
 }
