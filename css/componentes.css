@@ -70,25 +70,40 @@ main.banner div button{
 
 main.banner div button:hover, main.banner div button:focus {
     background:rgba(0, 0, 0, 0.679);
-    transform: scale(1.1)
+    transform: scale(1.03)
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li{
-    border: 1px solid black;
+section.container article.noticiasAtualizadas h1{
+    text-align: center;
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li{
+    border: 1px solid #594337;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 300px;
     height: auto;
-    
+    overflow: hidden;
+    background-color: rgba(156, 133, 133, 0.555);
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li img{
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li:hover, section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li:focus{
+    transform: scale(1.01);
+    background-color: rgba(156, 133, 133, 0.822);
+
+}
+
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li img{
     width: 100%;
     height: 200px;
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li div.noticiasEmFoco--lista_conteudo--informacoes{
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li div.noticiasAtualizadas--lista_conteudo--informacoes{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -96,18 +111,77 @@ section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li div.noticia
     gap: 10px;
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li div.noticiasEmFoco--lista_conteudo--informacoes div.noticiasEmFoco--lista_conteudo--informacoes_tema h3 {
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li div.noticiasAtualizadas--lista_conteudo--informacoes div.noticiasAtualizadas--lista_conteudo--informacoes_tema h3 {
     padding: 5px;
     font-weight: bolder;
     font-size: 1.5em;
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li div.noticiasEmFoco--lista_conteudo--informacoes span{
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li div.noticiasAtualizadas--lista_conteudo--informacoes span{
     margin-left: 5px;
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista li div.noticiasEmFoco--lista_conteudo--informacoes div.noticiasEmFoco--lista_conteudo--informacoes_link {
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li div.noticiasAtualizadas--lista_conteudo--informacoes div.noticiasAtualizadas--lista_conteudo--informacoes_link {
     font-size: 1.5em;
     text-align: start;
     margin-left: 5px;
+}
+
+section.container article.artigoDoDia h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.container article.artigoDoDia img{
+    width: 100%;
+    height: 400px;
+}
+
+section.container article.artigoDoDia div.artigoDoDia-conteudo{
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+}
+
+section.container article.artigoDoDia div.artigoDoDia-conteudo h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer div.rodape-detalhes{
+    height: auto;
+    background-color: rgba(39, 30, 30, 0.329);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div.rodape-detalhes div.rodape-detalhes_agradecimentos{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+footer div.rodape-detalhes div.rodape-detalhes_contatos{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer div.rodape-detalhes img{
+    width: 40px;
+    height: 40px;
+}
+
+footer div.rodape-autor{
+    display: flex;
+    justify-content: space-around;
 }

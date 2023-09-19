@@ -10,6 +10,7 @@ header.cabecalho {
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
+    background-color: white;
 }
 
 /*----------------*\
@@ -74,19 +75,32 @@ main.banner{
 
 section.container{
     max-width: 1600px;
-    background-color: wheat;
+    background-color: #af9587;
+    padding: 0;
 }
 
-section.container article.noticiasEmFoco{
-    margin: 5px 0;
+section.container article.noticiasAtualizadas{
+    margin: 40px 0;
     width: 100%;
 }
 
-section.container article.noticiasEmFoco ul.noticiasEmFoco--lista {
+section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     gap: 40px;
+}
+
+section.container article.artigoDoDia{
+    height: auto;
+    width: 100%;
+}
+
+footer{
+    background-color: rgba(39, 30, 30, 0.801);
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
