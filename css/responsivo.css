@@ -1,0 +1,26 @@
+@media(max-width: 1023px){
+    header.cabecalho{
+        font-size: 1.5rem;
+    }
+
+    header.cabecalho form.cabecalho-pesquisa{
+        width: 400px;
+    }
+
+    header.cabecalho div.cabecalho-menu a span.menuEscondido{
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    header.cabecalho form.cabecalho-pesquisa{
+        width: 300px;
+    }
+    header.cabecalho form.cabecalho-pesquisa div.cabecalho-pesquisa--container input#retirarTexto::placeholder{
+        
+    }
+}
+
+@media(max-width: 500px){
+
+}
