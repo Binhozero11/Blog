@@ -7,20 +7,47 @@
         width: 400px;
     }
 
-    header.cabecalho div.cabecalho-menu a span.menuEscondido{
+    header.cabecalho div.cabecalho-menu button span.menuEscondido{
         display: none;
     }
 }
 
 @media(max-width: 767px){
-    header.cabecalho form.cabecalho-pesquisa{
-        width: 300px;
-    }
-    header.cabecalho form.cabecalho-pesquisa div.cabecalho-pesquisa--container input#retirarTexto::placeholder{
-        
+    header.cabecalho .cabecalho-logo figure a figcaption{
+        display: none;
     }
 }
 
 @media(max-width: 500px){
+    header.cabecalho{
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    header.cabecalho .cabecalho-pesquisa{
+        display: none;
+    }
+
+    header.cabecalho .cabecalho-logo{
+        margin-left: 50px;
+    }
+    
+    header.cabecalho .cabecalho-menu{
+        margin-right: 20px;
+        gap:30px;
+    }
+
+    header.cabecalho .cabecalho-menu .botaoTelaPequena{
+        font-size: 26px;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header.cabecalho .cabecalho-menu button img{
+        width: 26px;
+        height: 26px;
+    }
 }

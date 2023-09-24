@@ -49,12 +49,17 @@ header.cabecalho .cabecalho-menu {
     gap: 10px;
 }
 
-header.cabecalho .cabecalho-menu a {
-    text-decoration: none;
-    color: black;
+header.cabecalho .cabecalho-menu .botaoTelaPequena{
+    display: none;
+}
+
+header.cabecalho .cabecalho-menu button {
+    background: none;
+    border: none;
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 /*--------------------*\
