@@ -151,6 +151,10 @@ section.container article.artigoDoDia div.artigoDoDia-conteudo h2{
     margin: 10px 0;
 }
 
+/*--------------------*\
+    FOOTER
+\*--------------------*/
+
 footer div.rodape-detalhes{
     height: auto;
     background-color: rgba(39, 30, 30, 0.329);
@@ -184,4 +188,5 @@ footer div.rodape-detalhes img{
 footer div.rodape-autor{
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }

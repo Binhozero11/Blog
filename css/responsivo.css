@@ -10,10 +10,34 @@
     header.cabecalho div.cabecalho-menu button span.menuEscondido{
         display: none;
     }
+
+    footer div.rodape-detalhes{
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    footer div.rodape-detalhes div.rodape-detalhes_agradecimentos{
+        margin-left: 15px;
+    }
+
+    footer div.rodape-detalhes div.rodape-detalhes_agradecimentos img{
+        display: none;
+    }
 }
 
 @media(max-width: 767px){
     header.cabecalho .cabecalho-logo figure a figcaption{
+        display: none;
+    }
+
+    footer div.rodape-detalhes div.rodape-detalhes_contatos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 200px;
+    }
+
+    footer div.rodape-detalhes div.rodape-detalhes_contatos a span{
         display: none;
     }
 }
@@ -29,7 +53,7 @@
     }
 
     header.cabecalho .cabecalho-logo{
-        margin-left: 50px;
+        margin-left: 35px;
     }
     
     header.cabecalho .cabecalho-menu{
@@ -49,5 +73,10 @@
     header.cabecalho .cabecalho-menu button img{
         width: 26px;
         height: 26px;
+    }
+
+    footer div.rodape-detalhes div.rodape-detalhes_contatos{
+        flex-direction: column;
+        width: 100px;
     }
 }

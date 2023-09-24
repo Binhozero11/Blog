@@ -76,6 +76,7 @@ main.banner{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    text-align: center;
 }
 
 section.container{
@@ -102,6 +103,10 @@ section.container article.artigoDoDia{
     height: auto;
     width: 100%;
 }
+
+/*--------------------*\
+    FOOTER
+\*--------------------*/
 
 footer{
     background-color: rgba(39, 30, 30, 0.801);
