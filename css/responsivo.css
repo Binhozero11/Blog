@@ -30,18 +30,6 @@
         display: none;
     }
 
-    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista{
-        gap: 20px;
-    }
-
-    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li{
-        width: 200px;
-    }
-
-    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li img{
-        height: 160px;
-    }
-
     footer div.rodape-detalhes div.rodape-detalhes_contatos{
         display: flex;
         flex-direction: row;
