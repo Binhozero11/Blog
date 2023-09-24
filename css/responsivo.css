@@ -30,6 +30,18 @@
         display: none;
     }
 
+    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista{
+        gap: 20px;
+    }
+
+    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li{
+        width: 200px;
+    }
+
+    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li img{
+        height: 160px;
+    }
+
     footer div.rodape-detalhes div.rodape-detalhes_contatos{
         display: flex;
         flex-direction: row;
@@ -58,7 +70,7 @@
     
     header.cabecalho .cabecalho-menu{
         margin-right: 20px;
-        gap:30px;
+        gap:40px;
     }
 
     header.cabecalho .cabecalho-menu .botaoTelaPequena{
@@ -73,6 +85,18 @@
     header.cabecalho .cabecalho-menu button img{
         width: 26px;
         height: 26px;
+    }
+
+    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista{
+        gap: 15px;
+    }
+
+    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li{
+        width: 180px;
+    }
+
+    section.container article.noticiasAtualizadas ul.noticiasAtualizadas--lista li img{
+        height: 150px;
     }
 
     footer div.rodape-detalhes div.rodape-detalhes_contatos{
